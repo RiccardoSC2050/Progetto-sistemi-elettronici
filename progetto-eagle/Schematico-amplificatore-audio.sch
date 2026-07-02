@@ -18241,10 +18241,10 @@ Source: DCJ0202.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47k"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="CT3216" package3d_urn="urn:adsk.eagle:package:23327/2" value="22u"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AUDIO_JACK_TRS_0.25&quot;_PTH_RA" device="" package3d_urn="urn:adsk.eagle:package:38295/2"/>
 <part name="AGND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="AGND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47p"/>
@@ -18361,12 +18361,12 @@ Source: DCJ0202.pdf</description>
 <attribute name="NAME" x="128.27" y="133.1214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="128.27" y="137.922" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R5" gate="G$1" x="96.52" y="134.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="100.33" y="133.1214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="100.33" y="137.922" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="91.44" y="134.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="95.25" y="133.1214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="95.25" y="137.922" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="AGND6" gate="VR1" x="76.2" y="129.54" smashed="yes">
-<attribute name="VALUE" x="71.12" y="129.54" size="1.778" layer="96" rot="R180"/>
+<instance part="AGND6" gate="VR1" x="71.12" y="129.54" smashed="yes">
+<attribute name="VALUE" x="66.04" y="129.54" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C7" gate="G$1" x="121.92" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="120.396" y="146.939" size="1.778" layer="95" rot="R180"/>
@@ -18376,9 +18376,9 @@ Source: DCJ0202.pdf</description>
 <attribute name="NAME" x="61.976" y="111.379" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="69.596" y="111.379" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C6" gate="G$1" x="83.82" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.439" y="136.144" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="88.519" y="136.144" size="1.778" layer="96" rot="R90"/>
+<instance part="C6" gate="G$1" x="78.74" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="78.359" y="136.144" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="83.439" y="136.144" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="VDD2" gate="G$1" x="78.74" y="53.34" smashed="yes" rot="R90">
 <attribute name="VALUE" x="73.66" y="53.34" size="1.778" layer="96" rot="R180"/>
@@ -18485,8 +18485,8 @@ Source: DCJ0202.pdf</description>
 <pinref part="AGND5" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="134.62" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="134.62" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="AGND6" gate="VR1" pin="AGND"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
@@ -18624,22 +18624,22 @@ Source: DCJ0202.pdf</description>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="134.62" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="U2" gate="A" pin="IN-"/>
-<wire x1="106.68" y1="134.62" x2="101.6" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="111.76" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="111.76" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="134.62" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <junction x="106.68" y="134.62"/>
-<junction x="101.6" y="134.62"/>
+<junction x="96.52" y="134.62"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 </net>
